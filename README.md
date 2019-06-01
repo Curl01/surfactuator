@@ -32,6 +32,8 @@ An Arduino/GPS controller to automatically deploy and retract your actuator cont
 
 * (Optional) RF Receiver for surf band (https://www.amazon.com/Transmitter-Receiver-Regeneration-Wireless-Burglar/dp/B01AL5Q7SC/)
 
+* (Optional) 6 Inch USB 2.0 Mini B Female to Right Angle Mini B Male Extension Cable. Feed to outside of controller housing for ease of serial monitoring & configuring. (https://www.amazon.com/gp/product/B00IFG9FDO/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+
 * (not covered by this project - but required) -- You will also need Lenco Actuators and relays to control them.  You can choose what works best for your situation, long or short throw actuators.  The 102XD are popular choices.  You'll also need some gates or plates fabricated for the actuators to control.  This project should work with tabs, gates and NSS style all the same, so choose what work best.
 
 # Wiring Instructions
@@ -60,7 +62,7 @@ RED/BLACK = power/gnd, YELLOW = motor controller, BLUE = GPS, ORANGE = Rotary En
 
 ## GPS
 * Solder or connect 3v3 (+) and GND (-) to arduino pins.
-* Connect RX/TX to pin D8/D9 on arduino
+* Connect TX/RX to pin D8/D9 on arduino
 
 ## L298N
 * Connect the 12v/GND to the raw power in (the source 12V not the ardiuno power.)
